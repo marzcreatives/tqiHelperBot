@@ -1833,7 +1833,7 @@ __metadata:
   resolution: "tqihelperbot@workspace:."
   dependencies:
     discord.js: "npm:^14.16.3"
-    wrangler: "npm:3.84.1"
+    wrangler: "npm:^3.84.1"
   languageName: unknown
   linkType: soft
 
@@ -1959,7 +1959,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.84.1":
+"wrangler@npm:^3.84.1":
   version: 3.84.1
   resolution: "wrangler@npm:3.84.1"
   dependencies:
