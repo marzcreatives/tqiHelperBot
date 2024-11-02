@@ -1,3 +1,9 @@
+import '../polyfills/node-polyfills';
+import '../polyfills/weakref-polyfill';
+import '../polyfills/finalization-registry-polyfill';
+import 'core-js/stable'; // Required for modern features
+import process from 'process'; 
+
 const { Client, GatewayIntentBits, Partials } = require('discord.js');
 
 const client = new Client({
